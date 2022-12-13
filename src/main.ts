@@ -60,6 +60,8 @@ function createBadge(mastoInstanceHost:string, score: number, style: BadgeStyle 
 }
 
 createBadge('piaille.fr', 10, BadgeStyle.red);
+createBadge('piaille.fr', 0, BadgeStyle.green);
 createBadge('mastodon.social', 3, BadgeStyle.green);
-createBadge('mastodon.social', 99, BadgeStyle.blue);
+createBadge('mastodon.social', 99, BadgeStyle.red);
+createBadge('mstdn.ca', 99, BadgeStyle.blue);
 
